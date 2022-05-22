@@ -16,8 +16,12 @@ while wert == "y":
         print(output_string)
         cboard.copy(output_string)
         print("added to clipboard!")
+        
+        # if u want u can put here ur copy to clipboard time
         # time.sleep(10)
-        # cboard.copy("Expired!")
+        # it will fill the clipboard with nothing
+        # cboard.copy("")
+        
         time.sleep(1)
         wert = input("Again (y/n): ")
 
